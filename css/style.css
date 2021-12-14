@@ -76,10 +76,21 @@
 
 .home-articles {
     height: 455px;
-    /* background-color: red; */
+    background-color: rgb(235, 183, 183);
 }
 
-.home-article {}
+.home-article {
+    display: flex;
+}
+
+.home-article img {
+    width: 300px;
+}
+
+.home-article-content {
+    padding: 25px;
+    align-self: center;
+}
 
 
 /* .home-articles {} */

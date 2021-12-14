@@ -5,6 +5,14 @@
     --font2: 'Roboto', sans-serif;
 }
 
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
 .max-width-1 {
     max-width: 80vw;
 }
