@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Roboto&display=swap');
 :root {
-    --main-bg-color: brown;
+    --main-bg-color: purple;
     --font1: 'Baloo Bhaijaan 2', cursive;
     --font2: 'Roboto', sans-serif;
 }
@@ -25,6 +25,12 @@
     font-family: var(--font1);
     padding-top: 3px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--main-bg-color);
 }
 
 .form-input {
