@@ -13,15 +13,16 @@
 }
 
 .nav-left {
-    font-size: 20px;
+    font-size: 35px;
     display: flex;
 }
 
 .nav-left ul {
     display: flex;
     align-items: center;
-    margin: 0 77px;
-    font-size: 18px;
+    margin: 0px 46px;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .nav-left ul li {
@@ -75,12 +76,13 @@
 }
 
 .home-articles {
-    height: 455px;
-    background-color: rgb(235, 183, 183);
+    padding-top: 12px;
+    /* background-color: rgb(235, 183, 183); */
 }
 
 .home-article {
     display: flex;
+    margin: 25px;
 }
 
 .home-article img {
