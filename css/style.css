@@ -78,6 +78,7 @@
     flex-direction: column;
     font-family: var(--font1);
     padding: 23px;
+    z-index: 1;
 }
 
 .content-left-heading {
