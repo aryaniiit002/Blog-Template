@@ -1,9 +1,7 @@
 .contact-content {
     height: 85vh;
-    /* background-color: rgb(220, 220, 245); */
     display: block;
     margin-top: 25px;
-    padding: 10px;
     position: relative;
     overflow: auto;
 }
@@ -12,7 +10,7 @@
     content: "";
     background-image: url(../img/11.svg);
     position: absolute;
-    width: 98.5%;
+    width: 100%;
     height: inherit;
     opacity: .15;
     border-radius: 12px;
@@ -20,15 +18,7 @@
     z-index: -1;
 }
 
-.contact-content h2 {
-    margin: 7px 36px;
-}
-
-.contact-form {
-    margin: 7px 36px;
-    display: block;
-}
-
 .contact-submit {
     margin-left: 7px;
+    border: 2px solid #bd6418;
 }

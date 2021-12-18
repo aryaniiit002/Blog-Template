@@ -23,6 +23,12 @@
     display: flex;
 }
 
+.nav-logo-img {
+    width: 85px;
+    margin-top: 21px;
+    border-radius: 50px;
+}
+
 .nav-left span {
     font-size: 35px;
     padding-top: 2px;
