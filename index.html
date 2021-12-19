@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Readers! Blog</title>
 </head>
 
 <body>
     <nav class="navigation max-width-1 m-auto">
         <div class="nav-left">
-            <span><img src="img/logo2.jpg" class="nav-logo-img" alt=""></span>
-            <!-- <span>Readers! Blog</span> -->
+            <a href="index.html">
+                <span><img src="img/logo2.jpg" class="nav-logo-img" alt=""></span>
+            </a>
             <ul>
                 <li>
                     <a href="#">Home</a>
@@ -52,6 +54,15 @@
         <hr>
     </div>
     <div class="home-articles max-width-1 m-auto font1">
+        <div class="year-box">
+            <label for="cars">Year: &nbsp;</label>
+            <select name="cars" id="cars" class="btn">
+                <option value="volvo">2018</option>
+                <option value="saab">2019</option>
+                <option value="opel">2020</option>
+                <option value="audi">2021</option>
+            </select>
+        </div>
         <h2>FEATURED ARTICLES</h2>
         <a href="blogpost.html">
             <div class="home-article">

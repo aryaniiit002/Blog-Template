@@ -6,15 +6,12 @@
 .navigation {
     font-family: var(--font1);
     height: 74px;
-    /* background-color: red; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 25px;
-    /* position: sticky;
-    top: 25px;
-    z-index: 1; */
-    background-color: #d6d3d37a;
+    margin-bottom: 25px;
+    /* background-color: #d6d3d37a; */
     border-radius: 10px 10px 0 0;
     padding: 11px 0px;
 }
@@ -107,6 +104,16 @@
 .home-articles {
     padding-top: 12px;
     margin-top: 23px;
+    position: relative;
+}
+
+.year-box {
+    position: absolute;
+    /* width: 234px; */
+    /* height: 255px; */
+    /* background-color: red; */
+    right: 0px;
+    top: 39px;
 }
 
 .home-articles a {

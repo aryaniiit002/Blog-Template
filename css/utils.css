@@ -5,6 +5,10 @@
     --font2: 'Roboto', sans-serif;
 }
 
+.center {
+    text-align: center;
+}
+
 .font1 {
     font-family: var(--font1);
 }
