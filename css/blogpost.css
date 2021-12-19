@@ -1,7 +1,6 @@
 .post-img {
     height: 405px;
     overflow: hidden;
-    /* margin-top: 19px; */
 }
 
 .post-img img {
@@ -9,7 +8,6 @@
 }
 
 .blog-post-content {
-    /* background-color: red; */
     font-family: var(--font1);
 }
 
@@ -23,12 +21,10 @@
 
 .description-col {
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 
 .blogpost-meta {
-    /* background-color: red; */
     display: flex;
     justify-content: space-between;
 }

@@ -11,7 +11,6 @@
     align-items: center;
     margin-top: 25px;
     margin-bottom: 25px;
-    /* background-color: #d6d3d37a; */
     border-radius: 10px 10px 0 0;
     padding: 11px 0px;
 }
@@ -57,7 +56,6 @@
 
 .content {
     height: 395px;
-    /* background-color: rgb(220, 220, 245); */
     display: flex;
     margin-top: 32px;
     padding: 10px;
@@ -77,7 +75,6 @@
 .content-left {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
     font-family: var(--font1);
     padding: 23px;
@@ -109,11 +106,8 @@
 
 .year-box {
     position: absolute;
-    /* width: 234px; */
-    /* height: 255px; */
-    /* background-color: red; */
     right: 0px;
-    top: 39px;
+    top: 50px;
 }
 
 .home-articles a {
@@ -140,7 +134,6 @@
 
 .footer {
     height: 75px;
-    /* background-color: var(--main-bg-color); */
     background-color: #d6d3d37a;
     display: flex;
     align-items: center;
