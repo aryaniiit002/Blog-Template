@@ -28,11 +28,22 @@
 }
 
 .blogpost-meta {
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
 }
 
+.author-info {
+    margin: 12px 0;
+}
+
 .author-info div {
-    padding: 4px 12px;
+    padding: 4px 0;
+    font-family: var(--font2);
+}
+
+.social {
+    padding-right: 53px;
+    align-self: center;
+    cursor: pointer;
 }
