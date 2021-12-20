@@ -5,14 +5,10 @@
 
 .navigation {
     font-family: var(--font1);
-    height: 74px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
     border-radius: 10px 10px 0 0;
-    padding: 11px 0px;
 }
 
 .nav-left {
@@ -55,7 +51,7 @@
 }
 
 .content {
-    height: 395px;
+    height: 100%;
     display: flex;
     margin-top: 32px;
     padding: 10px;
@@ -101,13 +97,11 @@
 .home-articles {
     padding-top: 12px;
     margin-top: 23px;
-    position: relative;
 }
 
-.year-box {
-    position: absolute;
-    right: 0px;
-    top: 50px;
+.more-blogs {
+    display: flex;
+    justify-content: space-between;
 }
 
 .home-articles a {
@@ -119,7 +113,7 @@
     background-color: rgb(220 213 213 / 50%);
     background-color: #fff9f3;
     margin: 21px 0;
-    padding: 15px 0 0 15px;
+    padding: 15px 15px 0 15px;
 }
 
 .home-article img {

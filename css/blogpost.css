@@ -17,11 +17,13 @@
 
 .row {
     display: flex;
+    justify-content: space-between;
 }
 
 .description-col {
     flex-direction: column;
     align-items: center;
+    width: 24.5vw;
 }
 
 .blogpost-meta {
@@ -31,6 +33,7 @@
 
 .author-info {
     margin: 12px 0;
+    width: 70%;
 }
 
 .author-info div {
@@ -39,7 +42,16 @@
 }
 
 .social {
-    padding-right: 53px;
     align-self: center;
     cursor: pointer;
+}
+
+.home-article-content h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
 }

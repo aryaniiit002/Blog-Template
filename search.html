@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
     <title>Readers! Blog - BlogPost</title>
 </head>
 
@@ -41,8 +43,19 @@
         <hr>
     </div>
     <div class="home-articles max-width-1 m-auto font1">
-        <h2>Searched Results for Lorem, ipsum dolor (0.03 seconds)</h2>
-        <a href="/blogpost.html">
+        <div class="more-blogs">
+            <h2>Searched Results for Lorem, ipsum dolor <br>(0.03 seconds)</h2>
+            <div class="year-box">
+                <label for="cars">Year: &nbsp;</label>
+                <select name="cars" id="cars" class="btn">
+                <option value="volvo">2018</option>
+                <option value="saab">2019</option>
+                <option value="opel">2020</option>
+                <option value="audi">2021</option>
+            </select>
+            </div>
+        </div>
+        <a href="blogpost.html">
             <div class="home-article">
                 <div class="home-article-img">
                     <img src="img/11.svg" alt="article">
