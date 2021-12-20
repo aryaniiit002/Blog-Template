@@ -1,2 +1,2 @@
-# Responsive Blog Template Step By Step From Scratch (Pure HTML, CSS & JavaScript)
+## Responsive Blog Template From Scratch (Pure HTML, CSS & JavaScript)
 
